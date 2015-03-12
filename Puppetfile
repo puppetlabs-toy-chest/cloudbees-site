@@ -38,7 +38,9 @@ mod 'elasticsearch/elasticsearch', '0.3.2'
 
 # TSE modules - either maintained under seteam
 # or by individual SE's
-# mod 'seteam/profile', '0.2.4'
+mod 'profile',
+  :git => 'https://github.com/ccaum/cloudbees-profile.git',
+  :ref => '8d18013c0a7b708e5eaad03e9827a2c721fadaf0'
 mod 'openssh',
   :git => 'git@github.com:reidmv/puppet-module-openssh.git',
   :ref => '0e10c540f32ca2a803ca056b8da59bd33a505cee'
