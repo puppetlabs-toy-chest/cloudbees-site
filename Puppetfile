@@ -35,19 +35,11 @@ mod 'stahnma/epel', '1.0.0'
 mod 'nanliu/staging', '1.0.2'
 mod 'elasticsearch/elasticsearch', '0.3.2'
 
-
-# TSE modules - either maintained under seteam
-# or by individual SE's
-mod 'profile',
-  :git => 'https://github.com/ccaum/cloudbees-profile.git',
-  :ref => '8d18013c0a7b708e5eaad03e9827a2c721fadaf0'
-mod 'openssh',
-  :git => 'git@github.com:reidmv/puppet-module-openssh.git',
-  :ref => '0e10c540f32ca2a803ca056b8da59bd33a505cee'
-mod 'nonpriv',
-  :git => 'git@github.com:jpadams/nonpriv.git'
-mod 'tsefacts',
-  :git => 'git@github.com:mrzarquon/tsefacts.git'
 mod 'jenkins',
   :git => 'git://github.com/jenkinsci/puppet-jenkins.git',
   :ref => '29421c4a7725a910cc21fb0fc453f5500c6dae0b'
+
+#Profile Module
+mod 'profile',
+  :git => 'https://github.com/ccaum/cloudbees-profile.git',
+  :ref => '8d18013c0a7b708e5eaad03e9827a2c721fadaf0'
