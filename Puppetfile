@@ -28,11 +28,17 @@ mod 'puppetlabs/concat', '1.1.2'
 mod 'puppetlabs/firewall', '1.2.0'
 mod 'puppetlabs/inifile', '1.1.4'
 mod 'puppetlabs/mysql', '2.3.1'
+mod 'hunner/wordpress', '1.0.0'
+mod 'darin/zypprepo', '1.0.2'
+mod 'puppetlabs/apt', '1.7.0'
+mod 'seteam/splunk', '2.0.1'
+mod 'seteam/tomcat', '0.0.6'
+
 
 # Community Modules
 
 mod 'stahnma/epel', '1.0.0'
-mod 'nanliu/staging', '1.0.2'
+mod 'nanliu/staging', '1.0.3'
 mod 'elasticsearch/elasticsearch', '0.3.2'
 
 mod 'jenkins',
