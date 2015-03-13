@@ -48,7 +48,7 @@ mod 'jenkins',
 #Roles/Profiles Modules
 mod 'profile',
   :git => 'https://github.com/ccaum/cloudbees-profile.git',
-  :ref => '30307814a7180bcfeb3ae4ecbc3ae4e5250040e6'
+  :ref => '240546e7a86298b7c5fc29d03bd5b8833bb97735'
 mod 'role',
   :git => 'https://github.com/ccaum/cloudbees-role.git',
   :ref => '98dca5f72156d3347d1cc8d31c117c97a3e554ae'
