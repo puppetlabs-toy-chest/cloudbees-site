@@ -6,6 +6,5 @@ jenkins::configure_firewall: true
 jenkins::config_hash:
   JENKINS_WAR: 
     value: "/vagrant/jenkins/jenkins.war"
-profile::wordpress::integrated:
-  db_user: 'wordpress'
-  db_password: 'wordpress'
+profile::wordpress::integrated::db_user: "wordpress"
+profile::wordpress::integrated::db_password: "wordpress"
