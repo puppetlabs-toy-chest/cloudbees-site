@@ -27,7 +27,7 @@ mod 'puppetlabs/ntp', '3.2.1'
 mod 'puppetlabs/concat', '1.1.2'
 mod 'puppetlabs/firewall', '1.2.0'
 mod 'puppetlabs/inifile', '1.1.4'
-mod 'puppetlabs/mysql', '2.3.1'
+mod 'puppetlabs/mysql', '3.3.0'
 mod 'hunner/wordpress', '1.0.0'
 mod 'darin/zypprepo', '1.0.2'
 mod 'puppetlabs/apt', '1.7.0'
@@ -48,7 +48,7 @@ mod 'jenkins',
 #Roles/Profiles Modules
 mod 'profile',
   :git => 'https://github.com/ccaum/cloudbees-profile.git',
-  :ref => '240546e7a86298b7c5fc29d03bd5b8833bb97735'
+  :ref => '3d1362c308c795c5231046d295049a240a36b76e'
 mod 'role',
   :git => 'https://github.com/ccaum/cloudbees-role.git',
   :ref => '98dca5f72156d3347d1cc8d31c117c97a3e554ae'
