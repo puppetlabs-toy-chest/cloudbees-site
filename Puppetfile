@@ -33,10 +33,6 @@ mod 'darin/zypprepo', '1.0.2'
 mod 'puppetlabs/apt', '1.7.0'
 mod 'seteam/splunk', '2.0.1'
 mod 'seteam/tomcat', '0.0.6'
-
-
-# Community Modules
-
 mod 'stahnma/epel', '1.0.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'elasticsearch/elasticsearch', '0.3.2'
@@ -47,8 +43,6 @@ mod 'jenkins',
 
 #Roles/Profiles Modules
 mod 'profile',
-  :git => 'https://github.com/puppetlabs/cloudbees-profile.git',
-  :ref => '2b8d1209b1e810b0c599f7b8aaf95a306e1306d3'
+  :git => 'https://github.com/puppetlabs/cloudbees-profile.git'
 mod 'role',
-  :git => 'https://github.com/puppetlabs/cloudbees-role.git',
-  :ref => '98dca5f72156d3347d1cc8d31c117c97a3e554ae'
+  :git => 'https://github.com/puppetlabs/cloudbees-role.git'
