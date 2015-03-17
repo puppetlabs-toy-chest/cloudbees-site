@@ -1,3 +1,5 @@
+require 'net/http'
+
 describe 'wordpress application' do
   it 'should respond with 302 redirect to web based installer' do
     ip = ENV['WORDPRESS_HOST']
