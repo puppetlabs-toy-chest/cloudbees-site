@@ -45,7 +45,6 @@ mod 'jenkins',
 
 #Roles/Profiles Modules
 mod 'profile',
-  :git => 'https://github.com/puppetlabs/cloudbees-profile.git',
-  :ref => 'f1adc8ac54a4a8c1e10566c4777541e2c61417df'
+  :git => 'https://github.com/puppetlabs/cloudbees-profile.git'
 mod 'role',
   :git => 'https://github.com/puppetlabs/cloudbees-role.git'
