@@ -36,6 +36,8 @@ mod 'seteam/tomcat', '0.0.6'
 mod 'stahnma/epel', '1.0.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'elasticsearch/elasticsearch', '0.3.2'
+mod 'mayflower/php', '3.1.0'
+mod 'jfryman/nginx', '0.2.2'
 
 mod 'jenkins',
   :git => 'git://github.com/jenkinsci/puppet-jenkins.git',
