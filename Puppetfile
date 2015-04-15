@@ -29,6 +29,7 @@ mod 'hunner/wordpress', '1.0.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'mayflower/php', '3.1.0'
 mod 'abstractit/sudo', '1.2.1'
+mod 'stahnma/epel', '1.0.2'
 mod 'jenkins',
   :git => 'git://github.com/jenkinsci/puppet-jenkins.git',
   :ref => '29421c4a7725a910cc21fb0fc453f5500c6dae0b'
