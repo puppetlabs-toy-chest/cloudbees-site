@@ -1,0 +1,3 @@
+---
+profile::wordpress::integrated::db_user: "wordpress"
+profile::wordpress::integrated::db_password: "stagingpassword"

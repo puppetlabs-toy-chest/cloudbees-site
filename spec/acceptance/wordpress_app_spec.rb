@@ -3,7 +3,7 @@ require 'net/https'
 
 describe 'wordpress application' do
   it 'should respond with 302 redirect to web based installer' do
-    url = ENV['ACCEPTANCE_WORDPRESS_URL']
+    url = env['acceptance_wordpress_url']
 
     uri = URI.parse(url)
     http = Net::HTTP.new( uri.host, uri.port)

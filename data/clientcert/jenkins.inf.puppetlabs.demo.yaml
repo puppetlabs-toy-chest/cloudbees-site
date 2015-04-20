@@ -1,0 +1,3 @@
+---
+classes:
+  - role::jenkins_enterprise

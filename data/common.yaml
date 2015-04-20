@@ -1,0 +1,10 @@
+---
+splunk::params::version:  "6.0"
+splunk::params::build:    "182037"
+splunk::params::src_root: "http://master.inf.puppetlabs.demo/demo_offline_splunk"
+jenkins::configure_firewall: true
+jenkins::config_hash:
+  JENKINS_WAR: 
+    value: "/vagrant/jenkins/jenkins.war"
+profile::wordpress::integrated::db_user: "wordpress"
+profile::wordpress::integrated::db_password: "wordpress"
